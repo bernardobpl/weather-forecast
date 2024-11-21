@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .city_info {
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin: 0;
+    }
+    p {
+      margin: 0.5rem 0 0;
+      opacity: 0.7;
+    }
+  }
+
+  .time_info {
+    text-align: right;
+    p {
+      margin: 0;
+      &:first-child {
+        font-size: 1.25rem;
+      }
+      &:last-child {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+
+    .time_info {
+      text-align: left;
+    }
+  }
+}

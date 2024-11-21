@@ -1,0 +1,47 @@
+.hourly_forecast {
+  margin-top: 2rem;
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1rem;
+  }
+}
+
+.chart_container {
+  height: 200px;
+}
+
+.chart_tooltip {
+  background-color: rgba(17, 24, 39, 0.8);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+
+  p {
+    margin: 0;
+    font-size: 0.875rem;
+  }
+}
+
+.chart_axis {
+  font {
+    fill: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+  }
+
+  line {
+    stroke: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.chart_line {
+  stroke: rgba(59, 130, 246, 0.8);
+  stroke-width: 2;
+}
+
+.chart_dot {
+  fill: #3b82f6;
+}
